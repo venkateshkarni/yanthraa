@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.background-banner{
+    background: #616fef;
+   
+}
+.background-banner h1{
+text-align: center;
+color: white;
+padding-top: 2rem;
+}
+.banner-text{
+    padding: 0 2.5rem;
+    color: white;
+    padding-bottom: 3rem;
+}
+
+/* ABOUT US */
+.founder-container{
+    background-color: rgb(253, 202, 253);
+    display: flex;
+    justify-content: center;
+  
+    flex-direction: column;
+  
+    
+}
+.founder-container img{
+height: 200px;
+width: 200px;
+border-radius: 10px;
+padding-top:2rem;
+position: relative;
+left: 20%;
+}
+.founder-container .name,.founder-container .designation{
+    color: #ffff;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+ 
+}
+.founder-container .intro{
+    background-color: #616fef;
+    margin: 2rem;
+    padding: 2rem;
+    color: #ffff;
+    
+    font-size: medium;
+}
+
+/* team-section */
+.team-collage h2{
+text-align: center;
+}
+
+/* technology */
+.tech-pic img{
+   width: 34rem;
+   height: 25rem;
+   position: relative;
+   left:3%;
+}
+
+/* pane */
+.pane-heading{
+    text-align: center;
+}
+.container-pane{
+    max-width: 35rem;
+}
+.tab-pane {
+    margin-right: 3.9rem;
+  }
+  .tab-pane ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+  } 
+
+  .nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  color: #fff !important;
+  background-color: #929ffd;
+}
+
+
+@media only screen and (min-width: 900px) {
+    .background-banner{
+        background: #616fef;
+        color: white;
+        height: 25rem;
+        padding: 50px;
+       }
+       .background-banner .banner-text p{
+         color: white;
+       }
+       .background-banner h1,.banner-text{
+         text-align: center;
+         font-weight: 500;
+       
+       }
+       .background-banner .banner-text{
+       padding: 0 38rem;
+       font-size: larger;
+       }  
+    /* founder */
+    .founder-container .name,.designation{
+        position: relative;
+        right: 35%;
+        top:15rem;
+    }
+    .founder-container img{
+        position: relative;
+        left: 9%;
+        top:13rem;
+    }
+    .founder-container .intro{
+        margin-left: 50rem;
+        padding: 10rem;
+        position: relative;
+        bottom: 20rem;
+        margin-right: 10rem;
+    }
+    
+   .tech-pic img{
+    margin-left: 2rem;
+    width: 160rem;
+    height: 500px;
+   }
+
+   /* pane */
+   .pane-heading {
+    margin-top: 5rem;
+    text-align: center;
+    color: rgb(51, 65, 212);
+  }
+  .container-pane {
+    margin: 4rem;
+  }
+  .container-pane{
+    position: relative;
+    left: 23rem;
+    max-width: 120rem;
+}
+  .nav li a {
+    color: black !important;
+  }
+  .nav li a:hover {
+    background-color: violet;
+  }
+  
+  .tab-pane ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+  }
+  .tab-pane ul li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .tab-pane ul li {
+    list-style: none;
+  }
+  .container {
+    width: 1350px !important;
+  }
+    }

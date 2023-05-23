@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.why-tech{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.whytech-img{
+ width: 8rem;
+ height: 10rem;
+ 
+}
+.whytech-content{
+    margin: 2rem;
+}
+.whytech-content h3{
+    font-weight: bold;
+    font-size: larger;
+}
+.why-tech p{
+    font-weight: 500;
+    font-size: large;
+ 
+}
+
+/* our work */
+.ourwork{
+    background-image: url("https://res.cloudinary.com/dhcnacghe/image/upload/v1684843994/mitchell-luo-FWoq_ldWlNQ-unsplash_xnluaf.jpg");
+    color: white;
+    padding: 2rem;
+}
+.ourwork h2{
+    text-align: center;
+    font-size: medium;
+}
+@media only screen and (min-width: 900px) {
+   .why-tech{
+    height: 180px;
+    margin-top: 12rem;
+ 
+   }
+    .whytech-img{
+        width: 15rem;
+        height: 20rem;
+        position: relative;
+        right: 35%;
+        top:1rem
+    }
+    .whytech-content{
+        margin-left: 50rem;
+        position: relative;
+        bottom: 20rem;
+        margin-right: 10rem;
+        padding-right: 20rem;
+   
+    }
+    /* ourwork */
+    .ourwork{
+        padding: 0rem 30rem;
+    }
+    .ourwork h2{
+        padding-top: 3rem;
+    }
+    .ourwork p{
+        padding-bottom: 3rem;
+    }
+    
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-banner{
+    background: #616fef;
+ 
+}
+.background-banner h1{
+text-align: center;
+color: white;
+padding: 6rem 0rem;
+}
+
+
+.card-header{
+    text-align: center !important;
+
+    color:#616fef;
+  font-weight: bold;
+  padding: 3rem;
+  background-color: rgb(245, 210, 246);
+}
+.card-body{
+    align-self: center;
+}
+.login-btn{
+    color: violet !important;
+    background-color: white  !important;
+    border-color:violet !important;
+}
+.login-btn:hover{
+    background-color: violet !important;
+    color: white !important;
+}
+@media only screen and (min-width: 900px) {
+    .background-banner{
+        background: #616fef;
+        color: white;
+        height: 25rem;
+        padding: 50px;
+       }
+     
+       .background-banner h1,.banner-text{
+         text-align: center;
+         font-weight: 500;
+       
+       }
+       .background-banner .banner-text{
+       padding: 0 38rem;
+       font-size: larger;
+       } 
+    .card{
+        margin: 3rem 50rem;
+        padding: 5rem;
+    }
+.login-btn{
+    margin-top: 3rem;
+} }

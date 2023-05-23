@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* loginpage */
+ /* banner */
+
+    /* form */
+     /* .form-heading{
+      text-align: center;
+      padding: 0 2rem;
+      font-weight: bold;
+    }
+    .employee-form{
+    max-width: fit-content;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+    
+    }
+    .name-email{
+      display: flex;
+     flex-direction: column;
+     gap: 10px;
+     padding: 0 3rem;
+    }
+    .name-input{
+      margin-right: 20rem;
+    }
+    .name-input input{
+      padding: 3rem;
+    
+    }
+    
+    .email-input{
+      margin-right: 10rem;
+    }
+    .email-input input{
+      padding: 3rem;
+    
+    }
+    
+    .message-area{
+    
+    padding:1rem 3rem;
+    column-count: 1;
+    
+    
+    }
+    .employee-btn{
+      position: relative;
+      right: 10%;
+    }  */
+    
+
+
+
+
+.background-banner{
+    background: #616fef;
+    margin-bottom: 3rem;
+}
+.background-banner h1{
+text-align: center;
+color: white;
+}
+.banner-text{
+    padding: 0 2.5rem;
+    color: white;
+    padding-bottom: 3rem;
+}
+
+
+.form-heading{
+    text-align: center;
+    padding: 0 2rem;
+    font-weight: bold;
+  }
+  .employee-form{
+    max-width: fit-content;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+    
+    }
+    .employee-form  input:focus
+    {
+     border-color: violet !important;
+     box-shadow: 0 0 0 0.1rem violet !important;
+   } 
+   .employee-form .name-email .name-input input{
+   
+    background-color: #EEEEEE !important ;
+    border: none;
+  }
+  .employee-form .name-email .email-input input{
+   
+    background-color: #EEEEEE !important ;
+    border: none;
+  }
+  .employee-form .message-area textarea:focus{
+    border-color: violet !important;
+    box-shadow: 0 0 0 0.1rem violet !important;
+    outline-color: violet !important;
+  }
+  ::placeholder{
+    color: hsl(0, 0%, 61%);
+    border: none;
+    
+  }
+  .employee-form .message-area textarea{
+    background-color: #EEEEEE !important ;
+    border: none;
+    padding: 2rem;
+   
+    
+  }
+ 
+ 
+  .name-email{
+    display: flex;
+   flex-direction: column;
+   gap: 10px;
+   padding: 0 3rem;
+  }
+  .name-input{
+    margin-right: 20rem;
+  }
+  .name-input input{
+    padding: 3rem;
+  
+  }
+
+  .email-input{
+    margin-right: 10rem;
+  }
+  .email-input input{
+    padding: 3rem;
+  
+  }
+  .message-area{
+
+    padding:1rem 3rem;    
+    }
+    .employee-btn button{
+        position: relative;
+        left:83%;
+        border: none ;
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color:white;
+        border-radius: 10px;
+      }
+    .employee-btn{
+      position: relative;
+      right: 5%;
+      bottom: 5%;
+      
+    } 
+    .employee-btn button{
+        border: 1px solid violet;
+    }
+    .employee-btn button:hover{
+        background-color: violet;
+      }
+      textarea {
+        max-width: 100%;
+        width: 100%;
+        min-height: 75px;
+        outline: none;
+        resize: none;
+        border: 1px solid grey;
+      }
+main{
+  padding-bottom: 6rem;
+}
+
+
+      @media only screen and (min-width: 900px) {
+        .background-banner{
+            background: #616fef;
+            color: white;
+            height: 25rem;
+            padding: 50px;
+           }
+           .background-banner .banner-text p{
+             color: white;
+           }
+           .background-banner h1,.banner-text{
+             text-align: center;
+             font-weight: 500;
+           
+           }
+           .background-banner .banner-text{
+           padding: 0 38rem;
+           font-size: larger;
+           }  
+           /* //form */
+            section h1{
+             text-align: center;
+             font-weight: 700;
+           }
+            section .input-group input{
+             background-color: #EEEEEE !important;
+           } 
+           .employee-form{
+             height: 30rem;
+             width: auto;
+             margin:0 15rem;
+             margin-bottom: 10rem;
+           }
+           .employee-form .name-email{
+             display: flex;
+             justify-content: space-around;
+             
+             align-items: center;
+             flex-direction: row;
+             padding:4rem 14rem;
+           }
+           .employee-form .name-email .name-input input{
+             height: 6rem;
+             width: 44rem;
+             background-color: #EEEEEE !important ;
+             border: none;
+           }
+           .employee-form .name-email .email-input input{
+             height: 6rem;
+             width: 44rem;
+             background-color: #EEEEEE !important ;
+             border: none;
+           }
+           
+           .employee-form  input:focus
+            {
+             border-color: violet !important;
+             box-shadow: 0 0 0 0.1rem violet !important;
+           } 
+           .employee-form .message-area textarea{
+             background-color: #EEEEEE !important ;
+             border: none;
+             
+             
+           }
+           .employee-form .message-area textarea:focus{
+             border-color: violet !important;
+             box-shadow: 0 0 0 0.1rem violet !important;
+             outline-color: violet !important;
+           }
+           ::placeholder{
+             color: hsl(0, 0%, 61%);
+             border: none;
+             
+           }
+           .employee-btn button{
+             position: relative;
+            left: 130rem;
+            bottom: 2rem;
+            border: 1px solid violet;
+             margin-top: 1rem;
+             padding: 1rem;
+             background-color:white;
+             border-radius: 10px;
+             margin-bottom: 3rem;
+           }
+           .employee-btn button:hover{
+             background-color: violet;
+            
+           }
+
+           .employee-form .message-area textarea{
+            width: 83%;
+            position: relative;
+            left: 5%;
+           }
+          
+             }
