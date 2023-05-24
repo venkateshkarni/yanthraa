@@ -288,8 +288,8 @@ display: flex;
   color: #ffff;
   font-weight: bold;
 
-  background-color: #616fef;
-padding-bottom: 5rem;
+  background-color: #7e88e8;
+padding-bottom: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -312,7 +312,7 @@ padding-bottom: 5rem;
 
 }
 .social .linkedin-btn{
-  padding: 1rem 1rem;
+  padding: 0.5rem 2.5rem;
   color: rgb(14, 14, 234);
   border: none;
   background: #ffff;
@@ -464,13 +464,13 @@ margin-top: 2rem;
   display: flex;
 }
 .place .text {
-  font-size: larger !important;
+  font-size: 14px !important;
 }
 .phone .text {
-  font-size: larger !important;
+  font-size: 14px !important;
 }
 .email .text {
-  font-size: larger !important;
+  font-size: 14px !important;
 }
 .content1 .p {
   font-size: 2.1875rem;
@@ -480,7 +480,7 @@ margin-top: 2rem;
 footer {
   bottom: 0px;
   width: 100%;
-  background: white;
+  background: #ececec;
   padding: 3rem;
 }
 .main-content {
@@ -603,7 +603,7 @@ footer {
 .bottom center {
   padding: 5px;
   font-size: 0.9375rem;
-  background: white;
+  background: #ececec;
 }
 .bottom center span {
   color: black;

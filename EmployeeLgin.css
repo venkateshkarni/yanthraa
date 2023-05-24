@@ -14,17 +14,7 @@ padding: 6rem 0rem;
 }
 
 
-.card-header{
-    text-align: center !important;
 
-    color:#616fef;
-  font-weight: bold;
-  padding: 3rem;
-  background-color: rgb(245, 210, 246);
-}
-.card-body{
-    align-self: center;
-}
 .login-btn{
     color: violet !important;
     background-color: white  !important;
@@ -51,10 +41,7 @@ padding: 6rem 0rem;
        padding: 0 38rem;
        font-size: larger;
        } 
-    .card{
-        margin: 3rem 50rem;
-        padding: 5rem;
-    }
+    
 .login-btn{
     margin-top: 3rem;
 } }
