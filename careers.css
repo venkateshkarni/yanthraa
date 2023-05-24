@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.career-heading{
+    margin: 2rem;
+}
+.career-heading h1{
+    color: #616fef;
+}
+.career-heading p{
+    font-weight: bold;
+}
+.p2{
+    color: #616fef;
+}
+.career-heading .img-div img{
+height: 23rem;
+margin-top: 3rem;
+}
+.form-head{
+    margin: 3rem;
+}
+.form-head h1{
+    text-align: center;
+    color: #616fef;
+    margin-bottom: 2rem;
+}
+.form-head p{
+    text-align: center; 
+    font-weight: bold;
+}
+.login-from{
+    margin: 2rem;
+}
+.all-field input{
+    padding: 2rem;
+    background-color: #EEEEEE !important ;
+    border: none;
+    margin-top: 1rem;
+}
+.all-field input:focus{
+    border-color: violet !important;
+}
+.all-field input:hover{
+    border-color: violet !important;
+    box-shadow: 0 0 0 0.1rem violet !important;
+    outline-color: violet !important;
+}
+.upload-file{
+    text-align: center;
+margin-top: 3rem;
+
+    
+}
+.upload-file label{
+
+    border:1px solid  #616fef;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    color: #616fef;
+}
+.upload-file .inp-up{
+    position: relative;
+    right: 2rem;
+    background-color: #EEEEEE;
+    margin-bottom: 3rem;
+}
+.apply-btn{
+    /* padding: 1rem 8rem; */
+    margin-left: 5rem;
+    border: none;
+    border-radius: 10px;
+  background-color:#616fef ;
+
+    padding: 1rem 5rem;
+    border-radius: 10px;
+    color: white;
+}
+.img-des{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+.employee-retain h1{
+    
+    text-align: center;
+    color: #616fef;
+
+}
+.img-des p{
+    font-weight: bold;
+}
+
+
+
+/* media query */
+@media only screen and (min-width: 900px) {
+
+
+
+.career-heading h1{
+    width: 35rem;
+    position: relative;
+    top: 13rem;
+   left: 4rem;
+}
+.career-heading p{
+   width: 73rem;
+   font-size: large;
+   position: relative;
+   top:15rem;
+   left: 4rem;
+   padding-right: 10rem;
+
+   
+}
+
+.career-heading .img-div img{
+    height: 53rem;
+    position: relative;
+    left: 52%;
+    bottom: 10rem;
+    }
+    .form-head p{
+       font-size: large;
+    }
+    .employee-form{
+        margin: 0rem 47rem;
+    }
+    .all-field input{
+        padding: 4rem;
+    }
+    .upload-file .inp-up{
+        position: relative;
+        left: 0.8rem;
+        padding: 3rem 19rem;
+    }
+    .apply-btn{
+        padding: 2rem 27rem;
+    }
+    .img-des p{
+       font-size: large;
+    }
+
+    .employee-retain h1{
+    
+     margin-top: 13rem;
+    
+    }
+}
