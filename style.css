@@ -388,7 +388,8 @@ font-size: larger;
 /* slide-partners */
 .slider-head{
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
 }
 .slider-container{
   align-items: center;
